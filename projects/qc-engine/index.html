@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Independent QC Engine | Alpha TRAORE</title>
+  <link rel="stylesheet" href="../../style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="../../index.html">Alpha TRAORE</a>
+    <nav>
+      <a href="../../index.html">Home</a>
+      <a href="../../about.html">About</a>
+      <a class="active" href="../../projects.html">Projects</a>
+      <a href="../../resume.html">Resume</a>
+      <a href="../../contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Independent QC Engine (ADaM/TFL validation checks)</h1>
+    <p class="lead">
+      Independent QC framework to validate ADaM datasets and TFL outputs using automated
+      checks, summaries, and reconciliation-ready reporting.
+    </p>
+
+    <section class="grid">
+      <div class="card">
+        <h2>What it does</h2>
+        <ul>
+          <li>Record counts & key-level uniqueness checks</li>
+          <li>Derivation checks (baseline, flags, visits, parameters)</li>
+          <li>Consistency checks across datasets (subject/visit/param)</li>
+          <li>Output reconciliation summaries + log review helpers</li>
+        </ul>
+        <p class="meta">Tools: SAS / R, validation reports</p>
+      </div>
+
+      <div class="card">
+        <h2>Links</h2>
+        <p>
+          <a class="btn" href="../../assets/QC_Engine_Checklist.pdf" target="_blank" rel="noopener">
+            QC Checklist (PDF)
+          </a>
+        </p>
+        <p class="meta" style="margin-top:12px;">
+          Code folder:
+          <a href="https://github.com/alphatraore/alphatraore.github.io/tree/main/projects/qc-engine"
+             target="_blank" rel="noopener">GitHub →</a>
+        </p>
+      </div>
+    </section>
+
+    <p style="margin-top:18px;">
+      <a class="btn secondary" href="../../projects.html">← Back to Projects</a>
+    </p>
+  </main>
+
+  <footer class="footer">© <span id="y"></span> Alpha TRAORE</footer>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
