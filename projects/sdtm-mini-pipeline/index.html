@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SDTM Mini-Pipeline | Alpha TRAORE</title>
+  <link rel="stylesheet" href="../../style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="../../index.html">Alpha TRAORE</a>
+    <nav>
+      <a href="../../index.html">Home</a>
+      <a href="../../about.html">About</a>
+      <a class="active" href="../../projects.html">Projects</a>
+      <a href="../../resume.html">Resume</a>
+      <a href="../../contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>SDTM Mini-Pipeline (Raw → SDTM domains)</h1>
+    <p class="lead">
+      Reproducible pipeline transforming raw EDC-style datasets into SDTM domains
+      with controlled terminology, ISO8601 date handling, and quality checks.
+    </p>
+
+    <section class="grid">
+      <div class="card">
+        <h2>What it does</h2>
+        <ul>
+          <li>Builds SDTM domains (DM, AE, EX, VS, LB)</li>
+          <li>Handles partial dates/times and ISO8601 formatting</li>
+          <li>Applies controlled terminology where applicable</li>
+          <li>Generates logs/check summaries for quick review</li>
+        </ul>
+        <p class="meta">Tools: SAS / R, CDISC SDTM, Git</p>
+      </div>
+
+      <div class="card">
+        <h2>Links</h2>
+        <p>
+          <a class="btn" href="../../assets/SDTM_MiniPipeline_Overview.pdf" target="_blank" rel="noopener">
+            Overview PDF
+          </a>
+        </p>
+        <p style="margin-top:10px;">
+          <a class="btn secondary" href="notebooks/sdtm_demo.html" target="_blank" rel="noopener">
+            Notebook (HTML)
+          </a>
+        </p>
+
+        <p class="meta" style="margin-top:12px;">
+          Code folder:
+          <a href="https://github.com/alphatraore/alphatraore.github.io/tree/main/projects/sdtm-mini-pipeline"
+             target="_blank" rel="noopener">GitHub →</a>
+        </p>
+      </div>
+    </section>
+
+    <p style="margin-top:18px;">
+      <a class="btn secondary" href="../../projects.html">← Back to Projects</a>
+    </p>
+  </main>
+
+  <footer class="footer">© <span id="y"></span> Alpha TRAORE</footer>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
